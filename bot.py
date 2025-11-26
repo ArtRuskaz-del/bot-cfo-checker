@@ -19,8 +19,8 @@ def start(message):
         if member.status in ['member', 'administrator', 'creator']:
             bot.send_message(
                 message.chat.id,
-                "Вы подписаны! Ваша ссылка для скачивания:\n"
-                "https://docs.google.com/document/d/18EmZajSCA4MKTeVBrRPCMp3yCxsEU02GG5eUZfaKw8A/"
+                "Вы подписаны! Вот ваша ссылка для скачивания:\nhttps://docs.google.com/document/d/1CEBStQvs52MK434ifdJQmDR6NHReyo6Uca08I5Y2hmM/edit?usp=sharing"
+
             )
         else:
             bot.send_message(
